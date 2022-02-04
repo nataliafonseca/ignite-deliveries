@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: Ignite Deliveries
+  description: Deliveries application created during Rocketseat Ignite classes.
+  version: 2.0.0
+servers:
+  - url: http://localhost:3333
+    description: Development server
+paths:
+  /:
+    get:
+      tags:
+        - Ignite Deliveries
+      summary: Index
+      responses:
+        "200":
+          description: A JSON with a message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Ignite Deliveries"
