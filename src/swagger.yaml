@@ -1,0 +1,53 @@
+openapi: 3.0.0
+info:
+  title: Ignite Deliveries
+  description: Deliveries application created during Rocketseat Ignite classes.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3333
+    description: Development server
+paths:
+  /client:
+    post:
+      tags:
+        - Client
+      summary: Create a new client account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              properties:
+                username:
+                  type: string
+                  example: "username"
+                password:
+                  type: string
+                  example: "password"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: "uuid"
+                  username:
+                    type: string
+                    example: "username"
+                  password:
+                    type: string
+                    example: "$2b$10$NsxUt5HKto4lsTSaENFTjeoLXC/bDOgnvSOw45yZCLxg/obni5x8y"
+        "400":
+          description: Username unavailable
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "This username is unavailable."
