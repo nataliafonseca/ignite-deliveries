@@ -1,0 +1,30 @@
+_id: req_wrk_ef8df4b575d648f290ae175966b8dac493ee5141
+type: Request
+parentId: fld_c5320811b9394cd9bbeecf46a0f93419
+modified: 1644079003954
+created: 1644013161815
+url: "{{ base_url }}/client"
+name: Create a new client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "username",
+      "password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f793df278b7b4057acb00bd634974eba
+authentication: {}
+metaSortKey: -1644013161815
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

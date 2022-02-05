@@ -1,0 +1,30 @@
+_id: req_wrk_ef8df4b575d648f290ae175966b8dac482b6f23c
+type: Request
+parentId: fld_bf019182b3684c5b8d8ada923f7376f9
+modified: 1644079060536
+created: 1644078974923
+url: "{{ base_url }}/deliveryman/login"
+name: Authenticate a deliveryman
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "username",
+      "password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_880b0161d9c8483bb8869b218cfb6814
+authentication: {}
+metaSortKey: -1644078974923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

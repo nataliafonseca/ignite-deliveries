@@ -1,0 +1,26 @@
+_id: env_env_2525d9a1d048741a05e16b6ae20dc42a16862f9c_sub
+type: Environment
+parentId: env_2525d9a1d048741a05e16b6ae20dc42a16862f9c
+modified: 1644079089337
+created: 1644009808106
+name: OpenAPI env
+data:
+  scheme: http
+  base_path: ""
+  host: localhost:3333
+  clientToken: "{% response 'body',
+    'req_wrk_ef8df4b575d648f290ae175966b8dac438aecd09',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+  deliverymanToken: "{% response 'body',
+    'req_wrk_ef8df4b575d648f290ae175966b8dac482b6f23c',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - clientToken
+    - deliverymanToken
+color: null
+isPrivate: false
+metaSortKey: 1644009808106

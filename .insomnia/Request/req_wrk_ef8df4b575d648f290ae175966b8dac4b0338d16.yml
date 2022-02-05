@@ -1,0 +1,30 @@
+_id: req_wrk_ef8df4b575d648f290ae175966b8dac4b0338d16
+type: Request
+parentId: fld_bf019182b3684c5b8d8ada923f7376f9
+modified: 1644079309468
+created: 1644078974925
+url: "{{ base_url }}/deliveryman"
+name: Create a new deliveryman account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "username",
+      "password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db58ffe606ae423984875035c9e14e44
+authentication: {}
+metaSortKey: -1644078974973
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

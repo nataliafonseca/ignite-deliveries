@@ -1,0 +1,30 @@
+_id: req_wrk_ef8df4b575d648f290ae175966b8dac438aecd09
+type: Request
+parentId: fld_c5320811b9394cd9bbeecf46a0f93419
+modified: 1644079096106
+created: 1644017371621
+url: "{{ base_url }}/client/login"
+name: Authenticate a client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "username",
+      "password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e97edadd0f2346a8bc11e2a8ed51767e
+authentication: {}
+metaSortKey: -1644013161765
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
